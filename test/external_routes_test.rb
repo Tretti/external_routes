@@ -1,4 +1,4 @@
-require 'test_helper'
+require "test_helper"
 
 class ExternalRoutesTest < ActionController::TestCase
   test "routes drawing from config/routes" do

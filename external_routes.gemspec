@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Jacob Carlborg"]
   s.email       = ["jacob.carlborg@tretti.se"]
   s.homepage    = "https://github.com/tretti/external_routes"
-  s.summary     = "A Rails plugin that allows loading external route files from the router"
-  s.description = "TODO: Description of ExternalRoutes."
+  s.summary     = "A Rails plugin that allows loading external route files from the router."
+  s.description = "A Rails plugin that allows loading external route files from the router."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]

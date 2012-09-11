@@ -9,12 +9,12 @@ Gem::Specification.new do |s|
   s.version     = ExternalRoutes::VERSION
   s.authors     = ["Jacob Carlborg"]
   s.email       = ["jacob.carlborg@tretti.se"]
-  s.homepage    = "https://github.com/tretti/external_routes"
+  s.homepage    = "https://github.com/Tretti/external_routes"
   s.summary     = "A Rails plugin that allows loading external route files from the router."
   s.description = "A Rails plugin that allows loading external route files from the router."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
+  s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "rails", "~> 3.2.8"
 

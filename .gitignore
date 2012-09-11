@@ -5,4 +5,5 @@ spec/external_routes/db/*.sqlite3
 spec/external_routes/log/*.log
 spec/external_routes/tmp/
 spec/external_routes/.sass-cache
-.rvmrc
+/.rvmrc
+/Gemfile.lock
